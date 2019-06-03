@@ -1,0 +1,14 @@
+[
+{
+ "frame_id":1, 
+ "filename":"/home/ismailyc/Desktop/spines/dataset/img658.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"s", "relative_coordinates":{"center_x":0.478009, "center_y":0.302212, "width":0.079876, "height":0.112002}, "confidence":0.844601}, 
+  {"class_id":0, "name":"s", "relative_coordinates":{"center_x":0.693370, "center_y":0.471752, "width":0.088879, "height":0.107840}, "confidence":0.820031}, 
+  {"class_id":0, "name":"s", "relative_coordinates":{"center_x":0.660077, "center_y":0.631493, "width":0.078222, "height":0.108399}, "confidence":0.803337}, 
+  {"class_id":0, "name":"s", "relative_coordinates":{"center_x":0.416157, "center_y":0.630838, "width":0.081377, "height":0.101099}, "confidence":0.788079}, 
+  {"class_id":0, "name":"s", "relative_coordinates":{"center_x":0.466592, "center_y":0.447719, "width":0.082887, "height":0.108119}, "confidence":0.758106}, 
+  {"class_id":0, "name":"s", "relative_coordinates":{"center_x":0.604824, "center_y":0.814918, "width":0.080905, "height":0.086062}, "confidence":0.742831}
+ ] 
+}
+]
