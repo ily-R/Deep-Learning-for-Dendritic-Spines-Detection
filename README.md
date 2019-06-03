@@ -9,4 +9,4 @@ containing the images.
 
 2- **SP-CNN**: 
 
-run the jupyter notebook. Note that the train images are not complete, but they will give you a sense of the overall pipeline.
+run the jupyter notebook. Note that the train images are not complete (due to size issues), but they will give you a sense of the overall pipeline.
