@@ -1,6 +1,7 @@
 # Deep-Learning-for-Dendritic-Spines-Detection
 Benchmarking Yolov2, Faster-RCNN and Shape-Priors-CNN on dendritic spines detection
 
+[Please read the report for more details](https://github.com/ily-R/Deep-Learning-for-Dendritic-Spines-Detection/blob/master/report.pdf)
 ### 1-Faster-RCNN:
 
 <p align="center">
@@ -28,9 +29,11 @@ run the jupyter notebook. Note that the train images are not complete (due to si
 
 ### 3-YOLOv2:
 
-<img align = "left" src="https://github.com/ily-R/Deep-Learning-for-Dendritic-Spines-Detection/blob/master/YOLOV2/results/658.jpg?raw=true" alt="capture reconstruction">
-<p align="right">
-  <img src="https://github.com/ily-R/Deep-Learning-for-Dendritic-Spines-Detection/blob/master/YOLOV2/results/1198.jpg?raw=true" alt="capture reconstruction"/>
+
+<p float="left">
+  <img src="https://github.com/ily-R/Deep-Learning-for-Dendritic-Spines-Detection/blob/master/YOLOV2/results/658.jpg" />
+  <img src="https://github.com/ily-R/Deep-Learning-for-Dendritic-Spines-Detection/blob/master/YOLOV2/results/268.jpg" /> 
+  <img src="https://github.com/ily-R/Deep-Learning-for-Dendritic-Spines-Detection/blob/master/YOLOV2/results/1198.jpg" />
 </p>
 
 #### Testing:
