@@ -51,6 +51,6 @@ From darknet folder run: `./darknet detector test cfg/obj.data cfg/yolo-obj.cfg 
 ### References:
 
 * [You Only Look Once: Unified, Real-Time Object Detection](https://arxiv.org/abs/1506.02640)
-* [YOLO9000: Better, Faster, Stronger] (https://arxiv.org/abs/1612.08242)
+* [YOLO9000: Better, Faster, Stronger](https://arxiv.org/abs/1612.08242)
 * [Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks](https://arxiv.org/abs/1506.01497)
 * [Deep Networks with Shape Priors for Nucleus Detection](https://arxiv.org/abs/1807.03135)
