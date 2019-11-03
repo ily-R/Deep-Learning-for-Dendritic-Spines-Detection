@@ -30,7 +30,7 @@ run the jupyter notebook. Note that the train images are not complete (due to si
 ### 3-YOLOv2:
 
 
-<p float="left">
+<p float="center">
   <img src="https://github.com/ily-R/Deep-Learning-for-Dendritic-Spines-Detection/blob/master/YOLOV2/results/658.jpg" />
   <img src="https://github.com/ily-R/Deep-Learning-for-Dendritic-Spines-Detection/blob/master/YOLOV2/results/268.jpg" /> 
   <img src="https://github.com/ily-R/Deep-Learning-for-Dendritic-Spines-Detection/blob/master/YOLOV2/results/1198.jpg" />
@@ -48,3 +48,9 @@ From darknet folder run :`./darknet detector map cfg/obj.data cfg/yolo-obj.cfg b
 
 From darknet folder run: `./darknet detector test cfg/obj.data cfg/yolo-obj.cfg backup/yolo-obj_last.weights img.png -thresh 0.55 ` 
 
+### References:
+
+* [You Only Look Once: Unified, Real-Time Object Detection](https://arxiv.org/abs/1506.02640)
+* [YOLO9000: Better, Faster, Stronger] (https://arxiv.org/abs/1612.08242)
+* [Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks](https://arxiv.org/abs/1506.01497)
+* [Deep Networks with Shape Priors for Nucleus Detection](https://arxiv.org/abs/1807.03135)
