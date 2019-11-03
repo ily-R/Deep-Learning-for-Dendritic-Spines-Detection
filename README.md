@@ -1,22 +1,47 @@
 # Deep-Learning-for-Dendritic-Spines-Detection
 Benchmarking Yolov2, Faster-RCNN and Shape-Priors-CNN on dendritic spines detection
 
-1- **Faster-RCNN**:
+### 1-Faster-RCNN:
 
-The model is already trained and the final weights are in Faster-RCNN/inference_graph, also the results are in Faster-RCNN/results.
-To re-calculate the predictions on the test set run F1_score_and_predictions.py. to recalculate on other images change the path to the folder 
-containing the images.
+<p align="center">
+  <img src="https://github.com/ily-R/Deep-Learning-for-Dendritic-Spines-Detection/blob/master/Faster-RCNN/results/img1180.jpg?raw=true" alt="capture reconstruction"/>
+</p>
 
-2- **SP-CNN**: 
+The model is already trained.
+* The final  weights are in `Faster-RCNN/inference_graph`.
+* The results are in `Faster-RCNN/results`
+
+* To re-calculate the predictions on the test set run `F1_score_and_predictions.py`
+* To recalculate on other images change the path to the folder containing the images.
+
+### 2-SP-CNN: 
+
+<p align="center">
+  <img src="https://github.com/ily-R/Deep-Learning-for-Dendritic-Spines-Detection/blob/master/SP-CNN/gt.JPG?raw=true" alt="capture reconstruction"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/ily-R/Deep-Learning-for-Dendritic-Spines-Detection/blob/master/SP-CNN/edges.JPG?raw=true" alt="capture reconstruction"/>
+</p>
 
 run the jupyter notebook. Note that the train images are not complete (due to size issues), but they will give you a sense of the overall pipeline.
 
-3- **YOLOv2**:
+### 3-YOLOv2:
 
-**FIRST**: create a text file and name it test.txt. this file contain the path to images you want to test on. see already existing test.txt and train.txt to get an idea.
+<img align = "left" src="https://github.com/ily-R/Deep-Learning-for-Dendritic-Spines-Detection/blob/master/YOLOV2/results/658.jpg?raw=true" alt="capture reconstruction">
+<p align="right">
+  <img src="https://github.com/ily-R/Deep-Learning-for-Dendritic-Spines-Detection/blob/master/YOLOV2/results/1198.jpg?raw=true" alt="capture reconstruction"/>
+</p>
 
--To calculate the map, f1-score... at a specific threshold (say 0.5, change it to other values for precision-recall graph) do the following:
-----from darknet folder run :"./darknet detector map cfg/obj.data cfg/yolo-obj.cfg backup/yolo-obj_last.weights -thresh 0.5"
+#### Testing:
 
--To test on a specific image (say the image's name is img.png) do the following:
-----From darknet folder run: "./darknet detector test cfg/obj.data cfg/yolo-obj.cfg backup/yolo-obj_last.weights img.png -thresh 0.55 "  
+* create a text file and name it `test.txt`. this file contain the path to images you want to test on. Get inspired by an already existing test.txt and train.txt to get an idea.
+
+* To calculate the map, f1-score... at a specific threshold (say 0.5, change it to other values for precision-recall graph) do the following:
+
+From darknet folder run :`./darknet detector map cfg/obj.data cfg/yolo-obj.cfg backup/yolo-obj_last.weights -thresh 0.5`
+
+* To test on a specific image (say the image's name is img.png) do the following:
+
+From darknet folder run: `./darknet detector test cfg/obj.data cfg/yolo-obj.cfg backup/yolo-obj_last.weights img.png -thresh 0.55 ` 
+
